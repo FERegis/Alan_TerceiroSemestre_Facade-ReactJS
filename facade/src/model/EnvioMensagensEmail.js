@@ -1,9 +1,9 @@
 import React from 'react';
 
-const procuraNoBanco = () => {
-    console.log("enviadoporemail") 
+const enviarMensagem = () => {
+    console.log("Mensagem enviada por email") 
 }
 
-export default function EnvioMensagensEmail(id) {
+export default function EnvioMensagensEmail() {
     enviarMensagem();
 }

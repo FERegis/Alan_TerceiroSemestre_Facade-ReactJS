@@ -1,9 +1,9 @@
 import React from 'react';
 
 const enviarMensagem = () => {
-    console.log("enviadoporsms")   
+    console.log("Mensagem enviada por sms")   
 }
 
-export default function EnvioMensagensSms(id) {
-      enviarMensagem();
+export default function EnvioMensagensSms() {
+    enviarMensagem();
 }
